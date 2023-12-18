@@ -32,7 +32,6 @@ void cadastrarLivro(Livro *livros, int *numLivros) {
 
     printf("Quantidade em estoque: ");
     scanf("%d", &livros[*numLivros].quantidade);
-
     (*numLivros)++;
 }
 
